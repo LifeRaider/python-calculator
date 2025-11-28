@@ -3,6 +3,7 @@
 import pytest
 from calculator import add, subtract, multiply, divide, power
 
+
 def test_add():
     """Test addition function."""
     assert add(2, 3) == 5
